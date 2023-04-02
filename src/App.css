@@ -1,38 +1,119 @@
-.App {
+.App{
+  position: absolute;
+  background-color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: aliceblue;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.App h1{
   text-align: center;
+  font-size: 32px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.otp-1{
+  padding-left: 500px;
+  padding-top: 50px;
+  text-transform: capitalize;
+  font-size: 20px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.order-id{
+  margin-left: 15px;
+  padding: 8px;
+}
+.otp-2{
+  padding-left: 500px;
+  padding-top: 15px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.otp-enter{
+  margin-left: 15px;
+  padding: 8px;
+}
+.btn{
+  margin-left: 650px;
+  margin-top:20px ;
+  padding: 7px 20px ;
+  background-color: blue;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow,transform;
+  transition-property: box-shadow,transform;
+}
+.btn:hover, .btn:focus, .btn:active{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: darkblue;
+}
+.btn-o{
+  margin-left: 650px;
+  margin-top:20px ;
+  padding: 7px 20px ;
+  background-color: blue;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  
+}
+@media(max-width: 600px) {
+  .App h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .otp-1{
+    padding-left:50px;
+    padding-top: 70px;
+    text-transform: capitalize;
+    font-size: 15px;
+  
   }
-  to {
-    transform: rotate(360deg);
+  .order-id{
+    margin-left: 15px;
+    padding: 5px;
+  }
+  .otp-2{
+    padding-left: 50px;
+    padding-top: 25px;
+    text-transform: capitalize;
+    font-size: 15px;
+  }
+  .otp-enter{
+    margin-left: 15px;
+    padding: 5px;
+  }
+  .btn{
+    margin-left: 50px;
+    margin-top:30px ;
+    padding: 7px 20px ;
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow,transform;
+    transition-property: box-shadow,transform;
+  }
+  .btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: darkblue;
+  }
+  .btn-o{
+    margin-left: 2px;
+    margin-top:30px ;
+    padding: 7px 20px ;
   }
 }
